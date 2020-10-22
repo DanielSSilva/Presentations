@@ -1,0 +1,9 @@
+Date|LogLevel|Class|Url|Action|Method|TraceIdentifier|UserIdentity|RequestDuration|Info
+2020-04-02 15:12:11.5246|INFO|Program|||||||"Starting Program"
+2020-04-02 15:12:11.7616|INFO|Program|||||||"Current Version: 1.1.1 "
+2020-04-02 15:31:33.0385|INFO|SomeController|http://localhost/api/users/3|GetUserDetails|GET|0HLUN2A51T7M5:00000002|7||"OnActionExecuting - Entered on the controller "
+2020-04-02 15:31:33.6408|INFO|SomeController|http://localhost/api/users/3|GetUserDetails|GET|0HLUN2A51T7M5:00000002|7|573|"{""_id"": ""5e9df633a56334748e1fb801"",""guid"": ""a9c7651b-1b4b-4389-8c2c-600c767de1bf"",""isActive"": true,""name"": ""Lynn Hammond"",""gender"": ""female"",""friends"": [{""id"": 0,""name"": ""Briana Garrett""},{""id"": 1,""name"": ""Carey Mcpherson""}]}"
+2020-04-02 15:31:34.7320|INFO|SomeController|http://localhost/api/users/3/friends|PostUserFriends|POST|0HLUN2A51T7M5:00000004|7||"OnActionExecuting - Entered on the controller "
+2020-04-02 15:31:34.9779|INFO|SomeController|http://localhost/api/users/3/friends|PostUserFriends|POST|0HLUN2A51T7M5:00000004|7|236|"{""_id"": ""5e9df8843034abc8bec28ca6"",""guid"": ""74e29493-8d00-412c-8640-f5dc1cb07968"",""isActive"": true,""name"": ""Ryan Atkins"",""gender"": ""male"",""friends"": []}"
+2020-04-02 15:31:36.6205|INFO|SomeController|http://localhost/api/users/3/|GetUserDetails|GET|0HLUN2A51T7M5:00000006|7||"OnActionExecuting - Entered on the controller "
+2020-04-02 15:31:36.8296|INFO|SomeController|http://localhost/api/users/3/|GetUserDetails|GET|0HLUN2A51T7M5:00000006|7|198|"{""_id"": ""5e9df633a56334748e1fb801"",""guid"": ""a9c7651b-1b4b-4389-8c2c-600c767de1bf"",""isActive"": true,""name"": ""Lynn Hammond"",""gender"": ""female"",""friends"": [{""id"": 0,""name"": ""Briana Garrett""},{""id"": 1,""name"": ""Carey Mcpherson""},{""id"": 1,""name"": ""Ryan Atkins""}]}"

@@ -1,0 +1,1 @@
+New-PSUDashboard -Name "Dynamic" -FilePath "dynamicDashboard.ps1" -BaseUrl "/dynamicDashboard" -Framework "UniversalDashboard:3.1.2" -Component @("UniversalDashboard.Charts:1.2.0")
