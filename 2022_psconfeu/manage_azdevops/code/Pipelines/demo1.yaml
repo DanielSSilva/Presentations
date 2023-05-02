@@ -1,0 +1,22 @@
+trigger:
+- none
+
+pool: 
+  name: DanielPool
+
+jobs:
+- job: HelloWorld
+  steps:
+  - bash: "echo HELLO PSConfEU22"
+
+- job: AnotherJob
+  steps:
+  - bash: "echo How's it goin'?" 
+
+- job: AnotherJob2
+  steps:
+  - bash: "echo Just some random text to run parallel jobs"
+
+- job: AnotherJob3
+  steps:
+  - bash: "echo I think this is enough" 
